@@ -5,7 +5,7 @@
 /**
  * main - entry point
  * Description: A program that prints the alphabet in lowercase
- * followed by a new line.
+ * and uppercases right next to it, followed by a new line.
  * Return: return 0 always (success)
  */
 
@@ -17,9 +17,11 @@ int main(void)
 	while (lowercase <= 'z')
 {
 	putchar(lowercase);
-	putchar(uppercase);
-
 	lowercase++;
+}
+	while (uppercase <= 'Z')
+{
+	putchar(uppercase);
 	uppercase++;
 }
 	putchar('\n');
