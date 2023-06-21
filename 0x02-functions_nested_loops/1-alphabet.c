@@ -4,15 +4,13 @@
 #include "main.h"
 
 /**
- * main - entry point
- * Description: A program that prints the alphabet in lowercase
- * followed by a new line.
- * Return: return 0 always (success)
+ * print_alphabet - Make the alphabet
+ * Return: return void always (success)
  */
 
 void print_alphabet(void)
 {
-	char c= 'a';
+	char c = 'a';
 
 	while (c <= 'z')
 {
