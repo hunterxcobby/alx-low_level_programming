@@ -41,14 +41,14 @@ This repository requires you have these necessary installations in order to func
 - A compiler ( GCC - GNU Compiler Collection ) 
 - Betty Linter 
 
-_Please do well to text me up via my handles if you need any assistance in installing any of these._
+_Please do well to text me via my handles if you need any assistance in installing any of these._
 
 # Usage
 
 + This repository and all of its contents are for learning purpose.
 + Some of these files contain basic concepts on how to achieve certain results.
 
-# Contribution
+# Contributions
 
 + This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C langauge.
 + Contributions are allowed and will be taken into consideration.
