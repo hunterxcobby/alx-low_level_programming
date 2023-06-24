@@ -44,62 +44,62 @@ These are some SHELL commands you need to take note of and understand in order t
       + -Wall = Enables additional compiler options.
       + -Werror = Treats compiler warnings as errors.
       + -Wextra = Enables extra compiler warnings.
-      + -pedantic = Issues warnings for codes that dont meet up to C standards.
+      + -pedantic = Issues warnings for codes that don't meet up to C standards.
       + -std=gnu89 = Indicates that the code should be compiled using the GNU C Compiler's implementation of the C language standard from 1989.
-      (Usage : gcc -Wall -Werror -Wextra -pedantic -std=gnu89)
+      Usageg : gcc -Wall -Werror -Wextra -pedantic -std=gnu89)
 
 ## Tasks
 
 ### 0. Preprocessor
 
-In this task, I was asked to write a script that runs a C file through the preprocessor and save the result into another file. The author specified these;
+In this task, I was asked to write a script that runs a C file through the preprocessor and saves the result into another file. The author specified these;
 - [x] The C file name will be saved in the variable $CFILE
 - [x] The output should be saved in the file c
 - File Name: 0-preprocessor
 
-I made sure to follow the needed requirements and took time to read through the provided resources before moving on to this task.
+I made sure to follow the needed requirements and took the time to read through the provided resources before moving on to this task.
 
 **How I Went About With It.**
 
 - Created a file called 0-preprocessor under this directory.
 - Used the VI text editor to write my script in the file.
-- Checked my code with the betty linter to check if my code meets the standard
+- Checked my code with the Betty linter to check if my code meets the standard
 - Executed it with the './' command. 
 
 ### 1. Compiler
 
-In this task, i was to write a script that compiles a C file but does not link. The author specified these;
+In this task, I was to write a script that compiles a C file but does not link. The author specified these;
 - [x] The C file name will be saved in the variable $CFILE
 - [x]The output file should be named the same as the C file, but with the extension .o instead of .c
-      * Example: if the C file is main.c, the output file should be main.o
+      * Example: if the C file is main .c, the output file should be main.o
 - File Name: 1-compiler
 
 **How I Went About With It.**
 
-- Created a file called 1-compiler under this direcotry
+- Created a file called 1-compiler under this directory
 - Used the VI text editor to write my script in the file.
-- Checked my code with the betty linter to check if my code meets the standard
+- Checked my code with the Betty linter to check if my code meets the standard
 - Executed it with the './' command.
 
 ### 2. Assembler
 
-in this task, I was asked write a script that generates the assembly code of a C code and save it in an output file.The author specified these;
+in this task, I was asked to write a script that generates the assembly code of a C code and saves it in an output file. The author specified these;
 
 - [x] The C file name will be saved in the variable $CFILE
 - [x] The output file should be named the same as the C file, but with the extension .s instead of .c.
-       * Example: if the C file is main.c, the output file should be main.s
+       * Example: if the C file is main .c, the output file should be main.s
 - File Name: 2-assembler
 
 **How I Went About With It.**
 
 - Created a file called 2-assembler under this directory.
 - Used the VI text editor to write my script in the file.
-- Checked my code with the betty linter to check if my code meets the standard
+- Checked my code with the Betty linter to check if my code meets the standard
 - Executed it with the './' command.
 
 ### 3. Name
 
-In this task, I was asked to Write a script that compiles a C file and creates an executable named cisfun.The author specified these;
+In this task, I was asked to Write a script that compiles a C file and creates an executable named is fun. The author specified these;
 
 - [x] The C file name will be saved in the variable $CFILE
 - File Name: 3-name
@@ -108,14 +108,14 @@ In this task, I was asked to Write a script that compiles a C file and creates a
 
 - Created a file called 3-name under this directory.
 - Used the VI text editor to write my script in the file.
-- Checked my code with the betty linter to check if my code meets the standard
+- Checked my code with the Betty linter to check if my code meets the standard
 - Executed it with the './' command.
 
 ### 4. Hello, puts
 
-In this task, I was asked to write a C program that prints exactly **"Programming is like building a multilingual puzzle**, followed by a new line.The author specified these;
+In this task, I was asked to write a C program that prints exactly **"Programming is like building a multilingual puzzle**, followed by a new line. The author specified these;
 
-- [x] Use the function puts
+- [x] Use the function that puts
 - [x] You are not allowed to use printf
 - [x] Your program should end with the value 0
 File Name: 4-puts.c
