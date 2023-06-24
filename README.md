@@ -33,7 +33,7 @@ These are some basic commands that help the learner navigate his way around the 
 - cp - copy
 - mv - to move or rename
 
-# Installation
+## Installation
 
 This repository requires you to have these necessary installations to function appropriately.
 
@@ -43,19 +43,19 @@ This repository requires you to have these necessary installations to function a
 - **Refer To This Link To Install The Betty Linter:**
  *https://github.com/alx-tools/Betty#readme*
 
-# Usage
+## Usage
 
 + This repository and all of its contents are for learning purposes.
 + Some of these files contain basic concepts on how to achieve certain results.
 
-# Contributions
+## Contributions
 
 + This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
 + With that being said please let me know if I missed something.
 + I am up for corrections.
 
-# Contact
+## Contact
 
 + **Email**: _solomonsefah13@gmail.com_
 + **Twitter**: _https://twitter.com/hunterxcobby_
