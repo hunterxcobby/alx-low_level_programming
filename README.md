@@ -4,7 +4,7 @@ This repo contains tasks to help assist one get introduced to the C programming 
 
 ## Table of Contents 
 
-- [Repository Description](#repository description)
+- [Repository Description](#repository_description)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
