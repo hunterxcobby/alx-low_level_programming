@@ -1,12 +1,242 @@
 # Hello World
 
-This prooject serves as a step off to help learn the C programming language.
+This project serves as a step off to learning the C programming language.
+
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Commands](#commands)
+- [Tasks](#tasks)
+- [Notes](#notes)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Copyrights](copyrights)
+- [Contact](contact)
+
+## Project Description 
+
++ This project was created just as instructed by the author of the program.
++ It contains tasks and quizzes that helps assist the C programming language learner.
++ Inside this directory are the various files to the tasks that the learner was asked to come up with.
++ The files here are the programs or solutions to the various tasks respectfully.
++ **NOTE**: *This directly and all of its contents exist for learning purposes.*
+
+## Commands
+
+These are some SHELL commands you need to take note of and understand in order to familiarise yourself with this project.
+
+**NOTE**: Use the "man <command_name> " in your terminal to better understand how these commands work.
+
++ touch - to create a file
++ mkdir - to create a directory
++ echo - to provide feedback
+       - to display information
+       - to generate output within shell scripts
+       - to redirect output into a file
++ echo $? - to see the return of your code
++ cat - to display the contents of a file
++ tail - to view the last lines of a file
++ export - to set environment variables
++ env - to view the list of the currently defined environment variables
++ chmod u+x - to make a file executable
++ gcc - to compile your program, add the options;
+      + -Wall = Enables additional compiler options.
+      + -Werror = Treats compiler warnings as errors.
+      + -Wextra = Enables extra compiler warnings.
+      + -pedantic = Issues warnings for codes that dont meet up to C standards.
+      + -std=gnu89 = Indicates that the code should be compiled using the GNU C Compiler's implementation of the C language standard from 1989.
+      (Usage : gcc -Wall -Werror -Wextra -pedantic -std=gnu89)
 
 ## Tasks
 
-- [Project Description](#project-description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### 0. Preprocessor
+
+In this task, I was asked to write a script that runs a C file through the preprocessor and save the result into another file. The author specified these;
+- [x] The C file name will be saved in the variable $CFILE
+- [x] The output should be saved in the file c
+- File Name: 0-preprocessor
+
+I made sure to follow the needed requirements and took time to read through the provided resources before moving on to this task.
+
+**How I Went About With It.**
+
+- Created a file called 0-preprocessor under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Executed it with the './' command. 
+
+### 1. Compiler
+
+In this task, i was to write a script that compiles a C file but does not link. The author specified these;
+- [x] The C file name will be saved in the variable $CFILE
+- [x]The output file should be named the same as the C file, but with the extension .o instead of .c
+      * Example: if the C file is main.c, the output file should be main.o
+- File Name: 1-compiler
+
+**How I Went About With It.**
+
+- Created a file called 1-compiler under this direcotry
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Executed it with the './' command.
+
+### 2. Assembler
+
+in this task, I was asked write a script that generates the assembly code of a C code and save it in an output file.The author specified these;
+
+- [x] The C file name will be saved in the variable $CFILE
+- [x] The output file should be named the same as the C file, but with the extension .s instead of .c.
+       * Example: if the C file is main.c, the output file should be main.s
+- File Name: 2-assembler
+
+**How I Went About With It.**
+
+- Created a file called 2-assembler under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Executed it with the './' command.
+
+### 3. Name
+
+In this task, I was asked to Write a script that compiles a C file and creates an executable named cisfun.The author specified these;
+
+- [x] The C file name will be saved in the variable $CFILE
+- File Name: 3-name
+
+**How I Went About With It.**
+
+- Created a file called 3-name under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Executed it with the './' command.
+
+### 4. Hello, puts
+
+In this task, I was asked to write a C program that prints exactly **"Programming is like building a multilingual puzzle**, followed by a new line.The author specified these;
+
+- [x] Use the function puts
+- [x] You are not allowed to use printf
+- [x] Your program should end with the value 0
+File Name: 4-puts.c
+
+**How I Went About With It.**
+
+- Created a file called 4-puts.c under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Used gcc '-Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c' to compile it
+- Executed the output file with the './' command.
+
+### 5. Hello, printf
+
+In this task, I was asked to write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. The author specified these;
+
+- [x] Use the function printf
+- [x] You are not allowed to use the function puts
+- [x] Your program should return 0
+- [x] Your program should compile without warning when using the -Wall gcc option
+- File Name: 5-printf.c
+
+**How I Went About With It.**
+
+- Created a file called 5-printf.c under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Used 'gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c' to compile it
+- Executed the output file with the './' command.
+- Used 'echo $?' to check if the program actually returns 0
+
+### 6. Size is not grandeur, and territory does not make a nation
+
+In this task, I was asked to write C program that prints the size of various types on the computer it is compiled and run on.The author specified these;
+
+- [x] You should produce the exact same output as in the example
+- [x] Warnings are allowed
+- [x] Your program should return 0
+- [ ] You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
+- File Name: 6-size.c
+
+**How I Went About With It.**
+
+- Created a file called 6-size.c under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Used 'gcc 6-size.c -m32 -o size32 2> /tmp/32' to compile it
+- Used 'gcc 6-size.c -m64 -o size64 2> /tmp/64' to compile it again
+- Executed the output file with the './size32' command to check for the datatype sizes for 32-bit operating system
+- Executed the output file with the './size64' command to check for the datatype sizes for 64-bit operating system
+
+### 7. Intel
+
+In this task, I was asked to a a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.The author specified these;
+
+- [x] The C file name will be saved in the variable $CFILE
+- [x] The output file should be named the same as the C file, but with the extension .s instead of .c
+       * Example: if the C file is main.c, the output file should be main.s
+- File Name: 100-intel
+
+**How I Went About With It.**
+
+- Created a file called 100-intel under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Executed the output file with the './' command.
+
+### 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
+
+In this task, I was asked to write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.The author specified these;
+
+- [x] You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+- [x] Your program should return 1
+- [x] Your program should compile without any warnings when using the -Wall gcc option
+- File Name: 101-quote.c
+
+**How I Went About With It.**
+
+- Created a file called 101-quote.c under this directory.
+- Used the VI text editor to write my script in the file.
+- Checked my code with the betty linter to check if my code meets the standard
+- Used gcc 'gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c' to compile it
+- Executed the output file with the './' command.
+
+## Notes
+
+These are the notes i personally gathered during the accomplishments of these tasks.
+
+## Installation
+
+This project requires you to have these necessary installations to function appropriately.
+
+- The latest version of UBUNTU
+- A compiler ( GCC - GNU Compiler Collection ) 
+- You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option 
+- Betty Linter (also known as "Betty Style," refers to a coding style guide and linter for the C programming language.)
+- **Refer To This Link To Install The Betty Linter:**
+ *https://github.com/alx-tools/Betty#readme*
+
+## Usage
+
++ This project and all of its contents are for learning purposes.
++ Some of these files contain basic scripts on how to achieve certain results.
+
+## Contributions
+
++ This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
++ Contributions are allowed and will be taken into consideration.
++ With that being said please let me know if I missed something.
++ I am up for corrections.
+
+## Copyrights
+
+- You are not allowed to publish any content of this project.
+- Any form of plagiarism is strictly forbidden.
+
+## Contact
+
++ **Email**: _solomonsefah13@gmail.com_
++ **Twitter**: _https://twitter.com/hunterxcobby_
++ **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
++ **Instagram**: *https://instagram.com/cobby_is_a_god*
++ **whatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
+
