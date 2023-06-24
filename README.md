@@ -1,10 +1,10 @@
-# ALX LOW LEVEL PROGRAMMING.
+# ALX LOW-LEVEL PROGRAMMING.
 
 This repo contains tasks to help assist one get introduced to the C programming language.
 
 ## Table of Contents 
 
-- [Repository Description](#repository description)
+- [Repository Description](#repository-description)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,46 +14,48 @@ This repo contains tasks to help assist one get introduced to the C programming 
 ## Repository Description
 
 + This repository was created just as instructed by the author of the program. 
-+ It contains directories that help assists anyone who is new to the C programming language.
-+ Inside the directories are various tasks that instructs the learner on how to adjust to the C language respectfully.
-+ Do make sure to carefully read all the REAME.md files as they each contain important key points to take into consideration for better understanding of the programs.
++ It contains directories that help assists anyone new to the C programming language.
++ Inside the directories are various tasks that instruct the learner on respectfully adjusting to the C language.
++ Make sure to carefully read all the README.md files as they each contain important key points to consider for a better understanding of the programs.
 + **NOTE**: *This repo and all of its contents exist for learning purposes.*
 
 ## Features
 
-These are some basic commands that helps the learner navigate his way around the utilization of this repository in SHELL.
+These are some basic commands that help the learner navigate his way around the utilization of this repository in SHELL.
 
-**NOTE**: Use the "man <command_name> " in your terminal to gain a better understanding of how these commands work.
+ 
 
 - cd - change directory 
 - ls - list current files
-- rm - delete file
+- rm - delete a file
 - rmdir - delete empty directories
-- rm -r - delete directory with contents
+- rm -r - delete a directory with contents
 - cp - copy
 - mv - to move or rename
 
-# Installation
+## Installation
 
-This repository requires you have these necessary installations in order to function appopriately.
+This repository requires you to have these necessary installations to function appropriately.
 
 - The latest version of UBUNTU
 - A compiler ( GCC - GNU Compiler Collection ) 
-- Betty Linter 
+- Betty Linter (also known as "Betty Style," refers to a coding style guide and linter for the C programming language.)
+- **Refer To This Link To Install The Betty Linter:**
+ *https://github.com/alx-tools/Betty#readme*
 
-_Please do well to text me via my handles if you need any assistance in installing any of these._
+## Usage
 
-# Usage
-
-+ This repository and all of its contents are for learning purpose.
++ This repository and all of its contents are for learning purposes.
 + Some of these files contain basic concepts on how to achieve certain results.
 
-# Contributions
+## Contributions
 
-+ This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C langauge.
++ This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
++ With that being said please let me know if I missed something.
++ I am up for corrections.
 
-# Contact
+## Contact
 
 + **Email**: _solomonsefah13@gmail.com_
 + **Twitter**: _https://twitter.com/hunterxcobby_
