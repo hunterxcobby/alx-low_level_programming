@@ -23,7 +23,7 @@ This repo contains tasks to help assist one get introduced to the C programming 
 
 These are some basic commands that help the learner navigate his way around the utilization of this repository in SHELL.
 
-**NOTE**: Use the "man <command_name> " in your terminal to better understand how these commands work.
+ 
 
 - cd - change directory 
 - ls - list current files
@@ -39,9 +39,9 @@ This repository requires you to have these necessary installations to function a
 
 - The latest version of UBUNTU
 - A compiler ( GCC - GNU Compiler Collection ) 
-- Betty Linter 
-
-_Please do well to text me via my handles if you need any assistance in installing any of these._
+- Betty Linter (also known as "Betty Style," refers to a coding style guide and linter for the C programming language.)
+- **Refer To This Link To Install The Betty Linter:**
+ *https://github.com/alx-tools/Betty#readme*
 
 # Usage
 
@@ -52,6 +52,8 @@ _Please do well to text me via my handles if you need any assistance in installi
 
 + This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
++ With that being said please let me know if I missed something.
++ I am up for corrections.
 
 # Contact
 
