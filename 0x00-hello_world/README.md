@@ -11,8 +11,8 @@ This project serves as a step off to learning the C programming language.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributions](#contributions)
-- [Copyrights](copyrights)
-- [Contact](contact)
+- [Copyrights](#copyrights)
+- [Contact](#contact)
 
 ## Project Description 
 
