@@ -61,4 +61,4 @@ This repository requires you to have these necessary installations to function a
 + **Twitter**: _https://twitter.com/hunterxcobby_
 + **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
 + **Instagram**: *https://instagram.com/cobby_is_a_god*
-+ **whatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
++ **WhatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
