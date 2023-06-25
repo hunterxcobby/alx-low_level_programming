@@ -1,4 +1,4 @@
-# Hello World
+#  0x00. C - Hello, World
 
 This project serves as a step toward learning the C programming language.
 
