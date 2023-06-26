@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/huntercobby"><img title="hunterxcobby" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
+<a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
 
 # ALX LOW-LEVEL PROGRAMMING.
