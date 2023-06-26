@@ -2,9 +2,9 @@
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
 
-# 0x01. C - Variables, if, else, while
+# 0x01. 0x02-functions_nested_loops
 
-This project serves as second step toward learning the C programming language.
+This project serves as a further step toward learning the C programming language.
 
 ## Table of Contents
 
@@ -40,7 +40,8 @@ These are some commands you need to take note of and understand to familiarise y
 
 ## Notes
 
-These are the notes i personally gathered during the accomplishments of these tasks;
+These are the notes I gathered during the accomplishments of these tasks;
+**NOTE**: Sorry, This section is still in progress and will be updated as time goes on.
 
 ## Installation
 
