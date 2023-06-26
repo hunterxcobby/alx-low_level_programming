@@ -2,7 +2,19 @@
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
 
-# ALX LOW-LEVEL PROGRAMMING.
+<p align="center">
+<a href="https://github.com/hunterxcobby/followers"><img title="Followers" src="https://img.shields.io/github/followers/hunterxcobby?label=Followers&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hunterxcobby/alx-low_level_programming?&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/network/members"><img title="Fork" src="https://img.shields.io/github/forks/hunterxcobby/alx-low_level_programming?style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hunterxcobby/alx-low_level_programming?label=Watching&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/watchers"><img title="Contributor" src="https://img.shields.io/github/contributors/hunterxcobby/alx-low_level_programming?logo=github&style=social"></a>
+</p>
+<p align="center">
+<a href="https://github.com/hunterxcobby/alx-low_level_programming"><img src="https://img.shields.io/github/repo-size/hunterxcobby/alx-low_level_programming?label=Repo%20size&style=flat"></a>
+</p>
+
+
+<h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
 This repo contains tasks to help assist one get introduced to the C programming language.
 
@@ -60,6 +72,13 @@ This repository requires you to have these necessary installations to function a
 + I am up for corrections.
 
 ## Contact
+
+<p>
+<a href="http://wa.me/233557452729" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=social&logo=whatsapp" /></a>
+<a href="http://www.instagram.com/mrf.zvx/" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=social&logo=instagram" /></a>
+<a href="https://www.facebook.com/profile.php?id=100028409167054" target="blank"><img src="https://img.shields.io/badge/Facebook-30302f?style=social&logo=facebook" /></a>
+</p>
+
 
 + **Email**: _solomonsefah13@gmail.com_
 + **Twitter**: _https://twitter.com/hunterxcobby_
