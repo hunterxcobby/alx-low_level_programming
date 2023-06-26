@@ -1,4 +1,20 @@
-# ALX LOW-LEVEL PROGRAMMING.
+<p align="center">
+<a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
+</p>
+
+<p align="center">
+<a href="https://github.com/hunterxcobby/followers"><img title="Followers" src="https://img.shields.io/github/followers/hunterxcobby?label=Followers&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/hunterxcobby/alx-low_level_programming?&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/network/members"><img title="Fork" src="https://img.shields.io/github/forks/hunterxcobby/alx-low_level_programming?style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/hunterxcobby/alx-low_level_programming?label=Watching&style=social"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/watchers"><img title="Contributor" src="https://img.shields.io/github/contributors/hunterxcobby/alx-low_level_programming?logo=github&style=social"></a>
+</p>
+<p align="center">
+<a href="https://github.com/hunterxcobby/alx-low_level_programming"><img src="https://img.shields.io/github/repo-size/hunterxcobby/alx-low_level_programming?label=Repo%20size&style=flat"></a>
+</p>
+
+
+<h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
 This repo contains tasks to help assist one get introduced to the C programming language.
 
@@ -10,6 +26,7 @@ This repo contains tasks to help assist one get introduced to the C programming 
 - [Usage](#usage)
 - [Contributions](#contributions)
 - [Contact](#contact)
+- [My Github Stats](#my-github-stats)
 
 ## Repository Description
 
@@ -57,8 +74,17 @@ This repository requires you to have these necessary installations to function a
 
 ## Contact
 
-+ **Email**: _solomonsefah13@gmail.com_
-+ **Twitter**: _https://twitter.com/hunterxcobby_
-+ **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
-+ **Instagram**: *https://instagram.com/cobby_is_a_god*
-+ **whatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
+You can contact me via these handles. 
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=social&logo=gmail&logoColor=white)](mailto:solomonsefah13@gmail.com)
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=social&logo=twitter)](https://twitter.com/hunterxcobby)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/cobby-sefah-solomon-~-c-s-s-6460bb279/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram)](https://www.instagram.com/cobby_is_a_god)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
+
+## My Github Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />

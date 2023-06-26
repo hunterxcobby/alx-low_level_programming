@@ -1,6 +1,10 @@
-# Hello World
+<p align="center">
+<a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
+</p>
 
-This project serves as a step off to learning the C programming language.
+#  0x00. C - Hello, World
+
+This project serves as a step toward learning the C programming language.
 
 ## Table of Contents
 
@@ -11,42 +15,44 @@ This project serves as a step off to learning the C programming language.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributions](#contributions)
-- [Copyrights](copyrights)
-- [Contact](contact)
+- [Copyrights](#copyrights)
+- [Contact](#contact)
+- [My Github Stats](#my-github-stats)
 
 ## Project Description 
 
 + This project was created just as instructed by the author of the program.
-+ It contains tasks and quizzes that helps assist the C programming language learner.
-+ Inside this directory are the various files to the tasks that the learner was asked to come up with.
++ It contains tasks and quizzes that help assist the C programming language learner.
++ Inside this directory are the various files for the tasks that the learner was asked to come up with.
 + The files here are the programs or solutions to the various tasks respectfully.
 + **NOTE**: *This directly and all of its contents exist for learning purposes.*
 
 ## Commands
 
-These are some SHELL commands you need to take note of and understand in order to familiarise yourself with this project.
+These are some SHELL commands you need to take note of and understand to familiarise yourself with this project.
 
 **NOTE**: Use the "man <command_name> " in your terminal to better understand how these commands work.
 
 + touch - to create a file
 + mkdir - to create a directory
-+ echo - to provide feedback
-       - to display information
-       - to generate output within shell scripts
-       - to redirect output into a file
++ echo - to provide feedback<br>
+       - to display information<br>
+       - to generate output within shell scripts<br>
+       -to redirect the  output into a file
 + echo $? - to see the return of your code
 + cat - to display the contents of a file
 + tail - to view the last lines of a file
 + export - to set environment variables
 + env - to view the list of the currently defined environment variables
 + chmod u+x - to make a file executable
-+ gcc - to compile your program, add the options;
-      + -Wall = Enables additional compiler options.
-      + -Werror = Treats compiler warnings as errors.
-      + -Wextra = Enables extra compiler warnings.
-      + -pedantic = Issues warnings for codes that don't meet up to C standards.
-      + -std=gnu89 = Indicates that the code should be compiled using the GNU C Compiler's implementation of the C language standard from 1989.
-      Usageg : gcc -Wall -Werror -Wextra -pedantic -std=gnu89)
++ gcc - to compile your program, add the options;<br>
+      + -Wall = Enables additional compiler options.<br>
+      + -Werror = Treats compiler warnings as errors.<br>
+      + -Wextra = Enables extra compiler warnings.<br>
+      + -pedantic = Issues warnings for codes that don't meet up to C standards.<br>
+      + -std=gnu89 = Indicates that the code should be compiled using the GNU C Compiler's implementation of the C language standard from 1989.<br> 
+      Usage :
+  - `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`  
 
 ## Tasks
 
@@ -55,7 +61,7 @@ These are some SHELL commands you need to take note of and understand in order t
 In this task, I was asked to write a script that runs a C file through the preprocessor and saves the result into another file. The author specified these;
 - [x] The C file name will be saved in the variable $CFILE
 - [x] The output should be saved in the file c
-- File Name: 0-preprocessor
+- File Name: `0-preprocessor`
 
 I made sure to follow the needed requirements and took the time to read through the provided resources before moving on to this task.
 
@@ -70,9 +76,9 @@ I made sure to follow the needed requirements and took the time to read through 
 
 In this task, I was to write a script that compiles a C file but does not link. The author specified these;
 - [x] The C file name will be saved in the variable $CFILE
-- [x]The output file should be named the same as the C file, but with the extension .o instead of .c
-      * Example: if the C file is main .c, the output file should be main.o
-- File Name: 1-compiler
+- [x] The output file should be named the same as the C file, but with the extension .o instead of .c <br>
+- Example: if the C file is main .c, the output file should be main.o
+- File Name: `1-compiler`
 
 **How I Went About With It.**
 
@@ -88,7 +94,7 @@ in this task, I was asked to write a script that generates the assembly code of 
 - [x] The C file name will be saved in the variable $CFILE
 - [x] The output file should be named the same as the C file, but with the extension .s instead of .c.
        * Example: if the C file is main .c, the output file should be main.s
-- File Name: 2-assembler
+- File Name: `2-assembler`
 
 **How I Went About With It.**
 
@@ -102,7 +108,7 @@ in this task, I was asked to write a script that generates the assembly code of 
 In this task, I was asked to Write a script that compiles a C file and creates an executable named is fun. The author specified these;
 
 - [x] The C file name will be saved in the variable $CFILE
-- File Name: 3-name
+- File Name: `3-name`
 
 **How I Went About With It.**
 
@@ -118,7 +124,7 @@ In this task, I was asked to write a C program that prints exactly **"Programmin
 - [x] Use the function that puts
 - [x] You are not allowed to use printf
 - [x] Your program should end with the value 0
-File Name: 4-puts.c
+- File Name: `4-puts.c`
 
 **How I Went About With It.**
 
@@ -136,7 +142,7 @@ In this task, I was asked to write a C program that prints exactly with proper g
 - [x] You are not allowed to use the function puts
 - [x] Your program should return 0
 - [x] Your program should compile without warning when using the -Wall gcc option
-- File Name: 5-printf.c
+- File Name: `5-printf.c`
 
 **How I Went About With It.**
 
@@ -155,7 +161,7 @@ In this task, I was asked to write C program that prints the size of various typ
 - [x] Warnings are allowed
 - [x] Your program should return 0
 - [ ] You might have to install the package libc6-dev-i386 on your Linux to test the -m32 gcc option
-- File Name: 6-size.c
+- File Name: `6-size.c`
 
 **How I Went About With It.**
 
@@ -174,7 +180,7 @@ In this task, I was asked to a a script that generates the assembly code (Intel 
 - [x] The C file name will be saved in the variable $CFILE
 - [x] The output file should be named the same as the C file, but with the extension .s instead of .c
        * Example: if the C file is main.c, the output file should be main.s
-- File Name: 100-intel
+- File Name: `100-intel`
 
 **How I Went About With It.**
 
@@ -190,7 +196,7 @@ In this task, I was asked to write a C program that prints exactly and that piec
 - [x] You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
 - [x] Your program should return 1
 - [x] Your program should compile without any warnings when using the -Wall gcc option
-- File Name: 101-quote.c
+- File Name: `101-quote.c`
 
 **How I Went About With It.**
 
@@ -202,7 +208,9 @@ In this task, I was asked to write a C program that prints exactly and that piec
 
 ## Notes
 
-These are the notes i personally gathered during the accomplishments of these tasks.
+These are the notes I personally gathered during the accomplishments of these tasks.
+
+**NOTE**: Sorry, This section is still in progress and will be updated as time goes on.
 
 ## Installation
 
@@ -222,7 +230,7 @@ This project requires you to have these necessary installations to function appr
 
 ## Contributions
 
-+ This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
++ This project and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
 + With that being said please let me know if I missed something.
 + I am up for corrections.
@@ -234,9 +242,18 @@ This project requires you to have these necessary installations to function appr
 
 ## Contact
 
-+ **Email**: _solomonsefah13@gmail.com_
-+ **Twitter**: _https://twitter.com/hunterxcobby_
-+ **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
-+ **Instagram**: *https://instagram.com/cobby_is_a_god*
-+ **whatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
+You can contact me via these handles. 
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=social&logo=gmail&logoColor=white)](mailto:solomonsefah13@gmail.com)
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=social&logo=twitter)](https://twitter.com/hunterxcobby)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/cobby-sefah-solomon-~-c-s-s-6460bb279/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram)](https://www.instagram.com/cobby_is_a_god)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
+
+## My Github Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
