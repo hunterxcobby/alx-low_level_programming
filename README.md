@@ -73,15 +73,17 @@ This repository requires you to have these necessary installations to function a
 
 ## Contact
 
-<p>
-<a href="http://wa.me/233557452729" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=social&logo=whatsapp" /></a>
-<a href="http://www.instagram.com/mrf.zvx/" target="blank"><img src="https://img.shields.io/badge/Instagram-30302f?style=social&logo=instagram" /></a>
-<a href="https://www.facebook.com/profile.php?id=100028409167054" target="blank"><img src="https://img.shields.io/badge/Facebook-30302f?style=social&logo=facebook" /></a>
-</p>
+You can contact me via these handles. 
 
+[![Email](https://img.shields.io/badge/Email-D14836?style=social&logo=gmail&logoColor=white)](mailto:solomonsefah13@gmail.com)
 
-+ **Email**: _solomonsefah13@gmail.com_
-+ **Twitter**: _https://twitter.com/hunterxcobby_
-+ **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
-+ **Instagram**: *https://instagram.com/cobby_is_a_god*
-+ **WhatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=social&logo=twitter)](https://twitter.com/hunterxcobby)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/cobby-sefah-6460bb279/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram)](https://www.instagram.com/cobby_is_a_god)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
+
+## Github Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
