@@ -75,6 +75,27 @@ These are the notes I gathered during the accomplishments of these tasks;
 - This process or method is done using the asterisk (*) operator.
 - For example, int value = *ptr; assigns the value stored at the memory location pointed to by ptr to the variable value.
 
+**Test Code**
+
+    This is an example of a pointer with its printed values.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+int x = 10;
+int *ptr = &x;   // ptr points to the memory address of x
+
+int value = *ptr;  // Dereferencing ptr to access the value stored at that memory address
+
+printf(" The memory address is %p\n", ptr);  //  Prints the memory address of the variable.
+printf(" The value of the dereferenced pointer is %d\n", value); // Prints the value stored in the address. 
+
+return (0);
+}
+```
+
 **NOTE**: Sorry, This section is still in progress and will be updated as time goes on.
 
 ## Installation
