@@ -26,6 +26,7 @@ This repo contains tasks to help assist one get introduced to the C programming 
 - [Usage](#usage)
 - [Contributions](#contributions)
 - [Contact](#contact)
+- [My Github Stats](#my-github-stats)
 
 ## Repository Description
 
@@ -85,5 +86,5 @@ You can contact me via these handles.
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
 
-## Github Stats
+## My Github Stats
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
