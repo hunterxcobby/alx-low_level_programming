@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
+</p>
+
 #  0x00. C - Hello, World
 
 This project serves as a step toward learning the C programming language.
@@ -13,6 +17,7 @@ This project serves as a step toward learning the C programming language.
 - [Contributions](#contributions)
 - [Copyrights](#copyrights)
 - [Contact](#contact)
+- [My Github Stats](#my-github-stats)
 
 ## Project Description 
 
@@ -203,7 +208,9 @@ In this task, I was asked to write a C program that prints exactly and that piec
 
 ## Notes
 
-These are the notes i personally gathered during the accomplishments of these tasks.
+These are the notes I personally gathered during the accomplishments of these tasks.
+
+**NOTE**: Sorry, This section is still in progress and will be updated as time goes on.
 
 ## Installation
 
@@ -223,7 +230,7 @@ This project requires you to have these necessary installations to function appr
 
 ## Contributions
 
-+ This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
++ This project and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
 + With that being said please let me know if I missed something.
 + I am up for corrections.
@@ -235,9 +242,18 @@ This project requires you to have these necessary installations to function appr
 
 ## Contact
 
-+ **Email**: _solomonsefah13@gmail.com_
-+ **Twitter**: _https://twitter.com/hunterxcobby_
-+ **Linkedn**: _https://www.linkedn.com/in/cobby-sefah-6460bb279_
-+ **Instagram**: *https://instagram.com/cobby_is_a_god*
-+ **whatsApp**: _https://wa.me/message/F7D3VHZMFZS5F1_
+You can contact me via these handles. 
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=social&logo=gmail&logoColor=white)](mailto:solomonsefah13@gmail.com)
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=social&logo=twitter)](https://twitter.com/hunterxcobby)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin)](https://www.linkedin.com/in/cobby-sefah-solomon-~-c-s-s-6460bb279/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=social&logo=instagram)](https://www.instagram.com/cobby_is_a_god)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
+
+## My Github Stats
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
