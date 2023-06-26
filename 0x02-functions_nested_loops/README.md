@@ -2,7 +2,7 @@
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
 
-# 0x02-functions_nested_loops
+# 0x02. C - Functions, nested loops
 
 This project serves as a further step toward learning the C programming language.
 
