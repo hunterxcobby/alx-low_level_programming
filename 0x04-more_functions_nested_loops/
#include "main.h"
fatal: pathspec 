@@ -1,5 +1,0 @@
-[master d5f0e87] A Solomon Sefah@DESKTOP-N4BJLPU MINGW64 ~ $ vagrant up Bringing machine default up with virtualbox provider... ==> default: Checking if box ubuntu/focal64 version 20230607.0.0 is up to date... ==> default: A newer version of the box ubuntu/focal64 for provider virtualbox is ==> default: available! You currently have version 20230607.0.0. The latest is version ==> default: 20230619.0.0. Run `vagrant box update` to update. ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision` ==> default: flag to force provisioning. Provisioners marked to run always will still run.
- 4 files changed, 51 insertions(+)
- create mode 100644 0x04-more_functions_nested_loops/10-main.c
- create mode 100644 0x04-more_functions_nested_loops/10-print_triangle.c
- create mode 100755 0x04-more_functions_nested_loops/10-triangles
