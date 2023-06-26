@@ -50,6 +50,15 @@ These are the notes I gathered during the accomplishments of these tasks;
 - Pointers are commonly used in programming languages like C and C++ to manipulate memory and access data indirectly.
 - They allow efficient memory management and provide flexibility in working with complex data structures.
 
+**How To Declare Pointers.**
+
+- In C, You are always going to declare something.
+- Anytime uou are declaring something in C, you meed to specify the data type of interest. i.e int, char, float 
+- Never forget that the pointer is just a container
+- It contains an address that points to something else.
+- You must prefix the variable with an asterisk. To tdll that the specific variable is just there to store an address. 
+
+
 **NOTE**: Sorry, This section is still in progress and will be updated as time goes on.
 
 ## Installation
