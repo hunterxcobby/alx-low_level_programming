@@ -5,20 +5,19 @@
 /**
 *main - program that generates random valid passwords
 *for the program 101-crackme
-*Return: Always 0.(success)
+*Return: Always 0.
 */
-
 int main(void)
 {
 	int sum;
-	char p;
+	char x;
 
 	srand(time(NULL));
 	while (sum <= 2645)
 	{
-		p = rand() % 128;
-		sum += p;
-		putchar(p);
+		x = rand() % 128;
+		sum += x;
+		putchar(x);
 	}
 	putchar(2772 - sum);
 	return (0);
