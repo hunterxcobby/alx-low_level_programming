@@ -44,7 +44,7 @@ These are the notes I gathered during the accomplishments of these tasks;
 
 click on this to send you to the NOTES.md file.
 
-<a href="https://github.com/hunterxcobby/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/README.md"><img title="NOTES" src="https://img.shields.io/badge/github-NOTES-orange.svg?style=social&logo=github"></a>
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/NOTES.md"><img title="NOTES" src="https://img.shields.io/badge/github-NOTES-orange.svg?style=social&logo=github"></a>
 </p>
 
 ## Installation
