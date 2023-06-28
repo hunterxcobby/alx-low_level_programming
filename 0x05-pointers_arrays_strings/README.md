@@ -43,8 +43,9 @@ You need to take note of and understand these commands to familiarise yourself w
 These are the notes I gathered during the accomplishments of these tasks;
 
 click on this to send you to the NOTES.md file.
-[https://github.com/hunterxcobby/alx-low_level_programming/raw/master/0x05-pointers_arrays_strings/NOTES.md](NOTES.md)
 
+<a href="https://github.com/hunterxcobby/alx-low_level_programming/raw/master/0x05-pointers_arrays_strings/NOTES.md"><img title="NOTES" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
+</p>
 
 ## Installation
 
