@@ -1,32 +1,27 @@
 #include "main.h"
 
 /**
- *cap_string - a program  capitalizes all words of a string
- *@s: a pointer to character
- *Return: *s
- */
-
-char *cap_string(char *s)
+*rot13 - a program that encodes a string using rot13
+*@s: a string for encoding
+*Return: address of s
+*/
+char *rot13(char *s)
 {
-	int i = 0, j;
-	char a[] = " \t\n,;.!?\"(){}";
+	int a;
+	int b;
+	char rot1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rot2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	while (*(s + i))
+	for (a = 0; *(s + a); a++)
 	{
-		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		for (b = 0; b < 52; b++)
 		{
-			if (i == 0)
-				*(s + i) -= 'a' - 'A';
-			else
+			if (rot1[b] == *(s + a))
 			{
-				for (j = 0; j <= 12; j++)
-				{
-					if (a[j] == *(s + i - 1))
-						*(s + i) -= 'a' - 'A';
-				}
+				*(s + a) = rot2[b];
+				break;
 			}
 		}
-		i++;
 	}
 	return (s);
 }
