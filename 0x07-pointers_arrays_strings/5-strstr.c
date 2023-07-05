@@ -1,4 +1,4 @@
-#include "main.h"
+G=`
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,14 +8,15 @@
  *@s: first place for string to occur
  *Return: NULL
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int m;
+	int x;
 	while (*s)
 	{
-		for (m = 0; accept[m]; m++)
+		for (x = 0; accept[x]; x++)
 		{
-			if (*s == accept[m])
+			if (*s == accept[x])
 				return (s);
 		}
 		s++;
