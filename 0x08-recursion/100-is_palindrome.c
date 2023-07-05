@@ -1,29 +1,44 @@
 #include "main.h"
 
 /**
- *checker - to check the prime number
- *@x: the first integer
- *@y: the integer
- *Return: integer as success
+ *_strlen_recursion - return of the length of string
+ *@s: the string for printing
+ *Return: the length of string
  */
-int checker(int x, int y)
+int _strlen_recursion(char *s)
 {
-	if (y < 2 || y % x == 0)
+	if (*s == '\0')
 		return (0);
-	else if (x > y / 2)
-		return (1);
 	else
-		return (checker(x + 1, y));
+		return (1 + _strlen_recursion(s + 1));
 }
 
 /**
- *is_prime_number - a program that tells if an integer number is prime
- *@n:the input number
- *Return: the integer as success
+ *checker - checking for the availability of s as palindrome
+ *@s: the string
+ *@x: the first index to be at left
+ *@y: the second index to be at right
+ *Return: if palindrome is 1, else 0
  */
-int is_prime_number(int n)
+int checker(char *s, int x, int y)
 {
-	if (n == 2)
+	if (s[x] == s[y])
+		if (x > y / 2)
+			return (1);
+		else
+			return (checker(s, x + 1, y - 1));
+	else
+		return (0);
+}
+
+/**
+ *is_palindrome - a program returns 1 if a string is a palindrome and 0 if not
+ *@s: the string
+ *Return: if palindrome is 1, else 0
+ */
+int is_palindrome(char *s)
+{
+	if (*s == '\0')
 		return (1);
-	return (checker(2, n));
+	return (checker(s, 0, _strlen_recursion(s) - 1));
 }
