@@ -1,4 +1,3 @@
-G=`
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,6 +11,7 @@ G=`
 char *_strpbrk(char *s, char *accept)
 {
 	int x;
+
 	while (*s)
 	{
 		for (x = 0; accept[x]; x++)
