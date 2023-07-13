@@ -1,60 +1,37 @@
-#include <stdlib.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * _strlen - calculate and return string length
- * @string: the string
- * Return: the string length
+ *string_nconcat - a program that concatenates two strings
+ *@s1: the first character
+ *@s2: the second character
+ *@n: the integer that has been unsigned
+ *Return: the pointer to resulting string
  */
-
-int _strlen(char *string)
-{
-	int x;
-
-	for (x = 0; string[x] != '\0'; x++)
-		;
-	return (x);
-}
-
-/**
- * string_nconcat - concatenate s1 and n bytes of s2; return ptr to string
- * @s1: the string 1
- * @s2: the string 2
- * @n: n bytes to concat from string 2
- * Return: the pointer to concatenated string
- */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *ptr;
-	int number;
-	int len;
-	int x;
-	int y;
+	char *m;
+	unsigned int x = 0, y = 0, num1 = 0, num2 = 0;
 
-	number = n;
-
-	if (s1 == NULL)
-		s1 = "";
-	if (s2 == NULL)
-		s2 = "";
-	if (number < 0)
+	while (s1 && s1[num1])
+		num1++;
+	while (s2 && s2[num2])
+		num2++;
+	if (n < num2)
+		m = malloc(sizeof(char) * (num1 + n + 1));
+	else
+		m = malloc(sizeof(char) * (num1 + num2 + 1));
+	if (!m)
 		return (NULL);
-	if (number >= _strlen(s2))
-		number = _strlen(s2);
-
-	len = _strlen(s1) + number + 1;
-
-	ptr = malloc(sizeof(ptr) * len);
-		if (ptr == NULL)
-			return (NULL);
-
-	for (x = 0; s1[x] != '\0'; x++)
-		ptr[x] = s1[x];
-	for (y = 0; y < number; y++)
-		ptr[x + y] = s2[y];
-	ptr[x + y] = '\0';
-
-	return (ptr);
+	while (x < num1)
+	{
+		m[x] = s1[x];
+		x++;
+	}
+	while (n < num2 && x < (num1 + n))
+		m[x++] = s2[y++];
+	while (n >= num2 && x < (num1 + num2))
+		m[x++] = s2[y++];
+	m[x] = '\0';
+	return (m);
 }
