@@ -4,9 +4,9 @@
 /**
  * alloc_grid - creates a  2d integer grid using malloc.
  * Description: Each element of the grid should be initialized to 0.
- * @width: int size width
- * @height: int size height
- * Return: Pointer to new grid
+ * @width: the int size width
+ * @height: the int size height
+ * Return: the pointer to new grid
  */
 
 int **alloc_grid(int width, int height)
