@@ -33,7 +33,7 @@ This repo contains projects to help assist one get introduced to the C programmi
 + This repository was created just as instructed by the author of the program. 
 + It contains directories that help assists anyone new to the C programming language.
 + Inside the directories are various tasks that instruct the learner on respectfully adjusting to the C language.
-+ Make sure to carefully read all the README.md files as they each contain important key points to consider for a better understanding of the programs.
++ Make sure to carefully read all the README.md files as they each contain important key points to consider for a better understanding of the programs..
 + **NOTE**: *This repo and all of its contents exist for learning purposes.*
 
 ## Features
