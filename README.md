@@ -70,7 +70,7 @@ This repository requires you to have these necessary installations to function a
 + This repository and all of its contents are works/solutions that I came up with for the tasks assigned to me as a learner of the C language.
 + Contributions are allowed and will be taken into consideration.
 + With that being said please let me know if I missed something.
-+ I am up for corrections.
++ I am up for corrections..
 
 ## Contact
 
