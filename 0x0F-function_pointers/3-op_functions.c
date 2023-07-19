@@ -1,33 +1,68 @@
 #include "3-calc.h"
-#include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
- *get_op_func - entry point
- *@s: operator passed
- *Return: pointer to the function that corresponds to the
- *operator given as a parameter
+ *op_add - struct op
+ *@a: operator
+ *@b: char
+ *Return: integer
  */
-
-int (*get_op_func(char *s))(int, int)
+int op_add(int a, int b)
 {
-	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
-	};
-	int m = 0;
+	return (a + b);
+}
 
-	while (m < 5)
+/**
+ *op_sub - entry point
+ *@a: operator
+ *@b: char
+ *Return: integer
+ */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+
+/**
+ *op_mul - entry point
+ *@a: operator
+ *@b: char
+ *Return: integer
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+ *op_div - entry point
+ *@a: operator
+ *@b: char
+ *Return: integer
+ */
+int op_div(int a, int b)
+{
+	if (b == 0)
 	{
-		if (strcmp(s, ops[m].op) == 0)
-			return (ops[m].f);
-
-		m++;
+		printf("Error\n");
+		exit(100);
 	}
+	return (a / b);
+}
 
-	return (0);
+/**
+ *op_mod - entry point
+ *@a: operator
+ *@b: char
+ *Return: integer
+ */
+int op_mod(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+	return (a % b);
 }
