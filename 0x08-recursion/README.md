@@ -2,7 +2,7 @@
 <a href="https://github.com/hunterxcobby"><img title="hunter" src="https://img.shields.io/badge/github-hunterxcobby-orange.svg?style=social&logo=github"></a>
 </p>
 
-# 0x05. C - More functions, more nested loops
+# 0x05. C - 0x08-recursion
 
 This project serves as a further step toward learning the C programming language.
 
