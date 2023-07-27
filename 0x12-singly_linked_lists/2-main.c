@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x12. Singly linked lists$ cat 2-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
