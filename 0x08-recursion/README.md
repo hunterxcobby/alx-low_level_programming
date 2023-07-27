@@ -32,6 +32,7 @@ This project serves as a further step toward learning the C programming language
 You need to take note of and understand these commands to familiarise yourself with this project.
 
 **NOTE**: Use the "man <command_name> " in your terminal to better understand how these commands work
+
 **NOTE**: Sorry, This section is still in progress and will be updated as time goes on
 
 ## Tasks

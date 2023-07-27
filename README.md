@@ -87,4 +87,4 @@ You can contact me via these handles.
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=social&logo=whatsapp)](https://wa.me/233557452729)
 
 ## My Github Stats
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=hunterxcobby&show_icons=true=true&&count_public=true&include_all_commits=true" />
