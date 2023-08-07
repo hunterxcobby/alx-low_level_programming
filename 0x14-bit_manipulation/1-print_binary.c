@@ -12,6 +12,7 @@ void print_binary(unsigned long int n)
 	unsigned long int i;
 	unsigned long int mask;
 	int leading_zeros;
+	unsigned int num_bits;
 
 	if (n == 0)
 	{
@@ -20,7 +21,7 @@ void print_binary(unsigned long int n)
 	}
 
 	mask = 1UL << (sizeof(unsigned long int) * 8 - 1);
-	leading_zeros = 1;
+	leading_zeros = 0;
 
 
 	while ((mask & n) == 0)
@@ -28,16 +29,17 @@ void print_binary(unsigned long int n)
 		mask >>= 1;
 		leading_zeros++;
 	}
-
-	for (i = 0; i < sizeof(unsigned long int) * 8 - leading_zeros; i++)
+	
+	num_bits = sizeof(unsigned long int) * 8 - leading_zeros;
+	for (i = 0; i < num_bits; i++)
 	{
 		if (n & mask)
 		{
-			putchar('1');
+			_putchar('1');
 		}
 		else
 		{
-			putchar('0');
+			_putchar('0');
 		}
 
 		mask >>= 1;
