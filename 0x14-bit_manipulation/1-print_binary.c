@@ -29,7 +29,7 @@ void print_binary(unsigned long int n)
 		mask >>= 1;
 		leading_zeros++;
 	}
-	
+
 	num_bits = sizeof(unsigned long int) * 8 - leading_zeros;
 	for (i = 0; i < num_bits; i++)
 	{
