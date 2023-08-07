@@ -11,5 +11,3 @@ mov rdi, hello_msg
 call printf
 pop rbp
 ret
-
-
