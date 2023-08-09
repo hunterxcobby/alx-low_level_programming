@@ -20,13 +20,13 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 
 	fd = open(filename, O_RDONLY);
-	if (fd == -1) 
+	if (fd == -1)
 	{
 		return (0);
 	}
 
 	BUFFER = malloc(letters);
-	if (BUFFER == NULL) 
+	if (BUFFER == NULL)
 	{
 		return (0);
 	}
@@ -39,7 +39,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	written = write(STDOUT_FILENO, BUFFER, data_read);
 
-	if (written == -1) 
+	if (written == -1)
 	{
 		return (0);
 	}
