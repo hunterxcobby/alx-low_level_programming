@@ -19,7 +19,7 @@ int create_file(const char *filename, char *text_content)
 	fd = open(filename, O_RDWR | O_CREAT, 0600);
 	if (fd == -1)
 	{
-		/*perror("failed to create!");*/
+		perror("failed to create!");
 		return (1);
 	}
 	/* Allocate memory for BUFFER*/
@@ -33,14 +33,14 @@ int create_file(const char *filename, char *text_content)
 	read_data = read(fd, BUFFER, sizeof(text_content));
 	if (read_data == -1)
 	{
-		/*perror("failed to read!");*/
+		perror("failed to read!");
 		return (0);
 	}
 
 	written = write(fd, BUFFER, read_data);
 	if (written == -1)
 	{
-		/*perror("failed to write!");*/
+		perror("failed to write!");
 		return (0);
 	}
 	written = written + 1;
