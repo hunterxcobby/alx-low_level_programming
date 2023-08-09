@@ -11,44 +11,32 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	char *BUFFER = NULL;
-	ssize_t read_data;
-	ssize_t written;
+	int letters;
+	/*char *BUFFER = NULL;*/
+	/*ssize_t read_data;*/ 
+	int written;
 
-	/* Open the file for reading and writing, create if it doesn't exist*/
-	fd = open(filename, O_RDWR | O_CREAT, 0600);
+	if(!filename)
+		return (-1);
+	
+	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	if (fd == -1)
 	{
-		perror("failed to create!");
-		return (1);
-	}
-	/* Allocate memory for BUFFER*/
-	BUFFER = malloc(strlen(text_content) + 1);
-	if (BUFFER == NULL)
-	{
-		return (0);
+		perror("fails");
+		return (-1);
 	}
 
+	if(text_content == NULL)
+		text_content = "";
 
-	read_data = read(fd, BUFFER, sizeof(text_content));
-	if (read_data == -1)
-	{
-		perror("failed to read!");
-		return (0);
-	}
+	for (letters = 0; text_content[letters]; letters++)
 
-	written = write(fd, BUFFER, read_data);
+	written = write(fd, text_content, letters);
 	if (written == -1)
-	{
-		perror("failed to write!");
-		return (0);
-	}
-	written = written + 1;
+		return (-1);
 
-	return (written);
-
-	free(BUFFER);
 	close(fd);
 
+	return (1);
 }
 
