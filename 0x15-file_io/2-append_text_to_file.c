@@ -1,5 +1,14 @@
 #include "main.h"
 
+/**
+ * append_text_to_file- function that appends
+ *  text at the end of a file.
+ * @filename: the name of the file
+ * @text_content: the content of the text
+ *
+ * Return: Return 1 for success and -1 for failure
+ */
+
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
@@ -7,7 +16,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	int letters;
 	int data_read;
 
-	/*if (!filename)*/
+	if (!filename)
 	fd = open(filename, O_RDWR | O_APPEND | 0664);
 	if (fd == -1)
 	{
@@ -21,7 +30,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 
 	for (letters = 0; text_content[letters]; letters++)
-        	;
+		;
 
 	written = write(fd, text_content, letters);
 	if (written == -1)
