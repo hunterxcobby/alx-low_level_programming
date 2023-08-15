@@ -16,7 +16,7 @@
 
 <h2 align="center">ALX LOW-LEVEL PROGRAMMING.</h2>
 
-This repo contains projects to help assist one get introduced to the C programming language.
+This repo contains projects to help assist one get introduced to the C programming language..
 
 ## Table of Contents 
 
