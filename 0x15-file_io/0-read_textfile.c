@@ -1,32 +1,31 @@
 #include "main.h"
 
 /**
- *create_file - a program that cfreates a file
- *@text_content: a NULL terminated string to write  to the file
- *@filename: filename
- *Return: 1 if fails; otherwise -1 when it fails
- */
-
-int create_file(const char *filename, char *text_content)
+*read_textfile - a program that reads a text file and prints
+*it to the POSIX standard output
+*@letters: numbers of letters printed
+*@filename: filename
+*Return: if filename is NULL return 0
+*/
+ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
-	int alphabets;
-	int news;
+
+	int is;
+	ssize_t now, new;
+	char *buffer;
 
 	if (!filename)
-		return (-1);
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
+		return (0);
+	is = open(filename, O_RDONLY);
 
-	if (fd == -1)
-		return (-1);
-	if (!text_content)
-		text_content = "";
-	for (alphabets = 0; text_content[alphabets]; alphabets++)
-		;
-
-	news = write(fd, text_content, alphabets);
-	if (news == -1)
-		return (-1);
-	close(fd);
-	return (1);
+	if (is == -1)
+		return (0);
+	buffer = malloc(sizeof(char) * (letters));
+	if (!buffer)
+		return (0);
+	now = read(is, buffer, letters);
+	new = write(STDOUT_FILENO, buffer, now);
+	close(is);
+	free(buffer);
+	return (new);
 }
